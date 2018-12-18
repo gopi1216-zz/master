@@ -1,0 +1,107 @@
+Plugins to install
+--Active file in status bar
+--Auto close tag
+--Auto rename tag
+--Beautify
+--Bootstrap 4
+--CSS peek
+--ESLint
+--Handlebars 
+--HTML Class Suggestion
+--HTML Snippets
+--HTML tag wrap
+--Indent rainbow
+--Indent brackets
+--Javascript (ES6) code snippets
+--Javascript Snippet pack
+--Simple React snippets
+--Trailing Spaces
+--VSCode icons
+
+
+Settings
+
+{
+  // Place your settings in this file to overwrite the default settings
+  "window.zoomLevel": 0,
+
+  "editor.wordWrapColumn": 200,
+
+  "editor.tabSize": 2,
+
+  "files.defaultLanguage": "html",
+
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.tabCompletion": "on",
+
+  "trailing-spaces.trimOnSave": true,
+
+  "editor.formatOnSave": false,
+
+  "editor.renderWhitespace": "all",
+
+  "liveServer.settings.port": 0,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.json"
+  ],
+
+  "minify.js": {
+    "compress": {
+      "keep_fnames": false
+    },
+    "output": {
+      "comments": false
+    }
+  },
+
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+
+  "files.autoSave": "off",
+  "workbench.iconTheme": "vscode-icons",
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsicons.projectDetection.disableDetect": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  "htmlhint.options": {
+    "doctype-first": false
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "htmltagwrap.tag" : "mark",
+
+  "liveServer.settings.CustomBrowser": "chrome",
+  "git.ignoreMissingGitWarning": true,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "files.trimTrailingWhitespace": true,
+  "editor.fontFamily": "consolas",
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Consolas",
+  "breadcrumbs.enabled": true
+}
